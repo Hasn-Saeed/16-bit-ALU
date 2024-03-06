@@ -1,0 +1,282 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Mar 05 12:54:53 2024
+# Process ID: 25484
+# Current directory: D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/Lab 4 - ALU.runs/synth_1
+# Command line: vivado.exe -log ALU_16Bit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALU_16Bit.tcl
+# Log file: D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/Lab 4 - ALU.runs/synth_1/ALU_16Bit.vds
+# Journal file: D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/Lab 4 - ALU.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ALU_16Bit.tcl -notrace
+Command: synth_design -top ALU_16Bit -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8164 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 282.941 ; gain = 72.855
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ALU_16Bit' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU_16Bit.vhd:16]
+INFO: [Synth 8-3491] module 'ALU' declared at 'D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU.vhd:5' bound to instance 'alu00' of component 'ALU' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU_16Bit.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'ALU' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU.vhd:16]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/full_adder.vhd:4' bound to instance 'C1' of component 'full_adder' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'full_adder' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/full_adder.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'full_adder' (1#1) [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/full_adder.vhd:9]
+INFO: [Synth 8-3491] module 'and_gate' declared at 'D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/and_gate.vhd:5' bound to instance 'C2' of component 'and_gate' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'and_gate' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/and_gate.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'and_gate' (2#1) [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/and_gate.vhd:13]
+INFO: [Synth 8-3491] module 'or_gate' declared at 'D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/or_gate.vhd:5' bound to instance 'C3' of component 'or_gate' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'or_gate' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/or_gate.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'or_gate' (3#1) [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/or_gate.vhd:13]
+INFO: [Synth 8-3491] module 'MUX31' declared at 'D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/MUX31.vhd:5' bound to instance 'C4' of component 'MUX31' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'MUX31' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/MUX31.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'MUX31' (4#1) [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/MUX31.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (5#1) [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU.vhd:16]
+INFO: [Synth 8-3491] module 'ALU' declared at 'D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU.vhd:5' bound to instance 'alu01' of component 'ALU' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU_16Bit.vhd:32]
+INFO: [Synth 8-3491] module 'ALU' declared at 'D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU.vhd:5' bound to instance 'alu02' of component 'ALU' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU_16Bit.vhd:33]
+INFO: [Synth 8-3491] module 'ALU' declared at 'D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU.vhd:5' bound to instance 'alu03' of component 'ALU' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU_16Bit.vhd:34]
+INFO: [Synth 8-3491] module 'ALU' declared at 'D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU.vhd:5' bound to instance 'alu04' of component 'ALU' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU_16Bit.vhd:36]
+INFO: [Synth 8-3491] module 'ALU' declared at 'D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU.vhd:5' bound to instance 'alu05' of component 'ALU' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU_16Bit.vhd:37]
+INFO: [Synth 8-3491] module 'ALU' declared at 'D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU.vhd:5' bound to instance 'alu06' of component 'ALU' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU_16Bit.vhd:38]
+INFO: [Synth 8-3491] module 'ALU' declared at 'D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU.vhd:5' bound to instance 'alu07' of component 'ALU' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU_16Bit.vhd:39]
+INFO: [Synth 8-3491] module 'ALU' declared at 'D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU.vhd:5' bound to instance 'alu08' of component 'ALU' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU_16Bit.vhd:41]
+INFO: [Synth 8-3491] module 'ALU' declared at 'D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU.vhd:5' bound to instance 'alu09' of component 'ALU' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU_16Bit.vhd:42]
+INFO: [Synth 8-3491] module 'ALU' declared at 'D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU.vhd:5' bound to instance 'alu10' of component 'ALU' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU_16Bit.vhd:43]
+INFO: [Synth 8-3491] module 'ALU' declared at 'D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU.vhd:5' bound to instance 'alu11' of component 'ALU' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU_16Bit.vhd:44]
+INFO: [Synth 8-3491] module 'ALU' declared at 'D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU.vhd:5' bound to instance 'alu12' of component 'ALU' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU_16Bit.vhd:46]
+INFO: [Synth 8-3491] module 'ALU' declared at 'D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU.vhd:5' bound to instance 'alu13' of component 'ALU' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU_16Bit.vhd:47]
+INFO: [Synth 8-3491] module 'ALU' declared at 'D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU.vhd:5' bound to instance 'alu14' of component 'ALU' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU_16Bit.vhd:48]
+INFO: [Synth 8-3491] module 'ALU' declared at 'D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU.vhd:5' bound to instance 'alu15' of component 'ALU' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU_16Bit.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'ALU_16Bit' (6#1) [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/ALU_16Bit.vhd:16]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 320.328 ; gain = 110.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 320.328 ; gain = 110.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 320.328 ; gain = 110.242
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'Sout_reg' [D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/MUX31.vhd:17]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 327.117 ; gain = 117.031
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 48    
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 16    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module full_adder 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+Module MUX31 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (alu00/C4/Sout_reg) is unused and will be removed from module ALU_16Bit.
+WARNING: [Synth 8-3332] Sequential element (alu01/C4/Sout_reg) is unused and will be removed from module ALU_16Bit.
+WARNING: [Synth 8-3332] Sequential element (alu02/C4/Sout_reg) is unused and will be removed from module ALU_16Bit.
+WARNING: [Synth 8-3332] Sequential element (alu03/C4/Sout_reg) is unused and will be removed from module ALU_16Bit.
+WARNING: [Synth 8-3332] Sequential element (alu04/C4/Sout_reg) is unused and will be removed from module ALU_16Bit.
+WARNING: [Synth 8-3332] Sequential element (alu05/C4/Sout_reg) is unused and will be removed from module ALU_16Bit.
+WARNING: [Synth 8-3332] Sequential element (alu06/C4/Sout_reg) is unused and will be removed from module ALU_16Bit.
+WARNING: [Synth 8-3332] Sequential element (alu07/C4/Sout_reg) is unused and will be removed from module ALU_16Bit.
+WARNING: [Synth 8-3332] Sequential element (alu08/C4/Sout_reg) is unused and will be removed from module ALU_16Bit.
+WARNING: [Synth 8-3332] Sequential element (alu09/C4/Sout_reg) is unused and will be removed from module ALU_16Bit.
+WARNING: [Synth 8-3332] Sequential element (alu10/C4/Sout_reg) is unused and will be removed from module ALU_16Bit.
+WARNING: [Synth 8-3332] Sequential element (alu11/C4/Sout_reg) is unused and will be removed from module ALU_16Bit.
+WARNING: [Synth 8-3332] Sequential element (alu12/C4/Sout_reg) is unused and will be removed from module ALU_16Bit.
+WARNING: [Synth 8-3332] Sequential element (alu13/C4/Sout_reg) is unused and will be removed from module ALU_16Bit.
+WARNING: [Synth 8-3332] Sequential element (alu14/C4/Sout_reg) is unused and will be removed from module ALU_16Bit.
+WARNING: [Synth 8-3332] Sequential element (alu15/C4/Sout_reg) is unused and will be removed from module ALU_16Bit.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 475.426 ; gain = 265.340
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 475.426 ; gain = 265.340
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 475.426 ; gain = 265.340
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 475.426 ; gain = 265.340
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 475.426 ; gain = 265.340
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 475.426 ; gain = 265.340
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 475.426 ; gain = 265.340
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 475.426 ; gain = 265.340
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 475.426 ; gain = 265.340
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |     9|
+|2     |LUT3 |     5|
+|3     |LUT4 |     4|
+|4     |LUT5 |    15|
+|5     |LUT6 |    18|
+|6     |IBUF |    35|
+|7     |OBUF |    17|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   103|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 475.426 ; gain = 265.340
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 17 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 475.426 ; gain = 265.340
+Synthesis Optimization Complete : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 475.426 ; gain = 265.340
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 35 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+47 Infos, 17 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 543.215 ; gain = 333.129
+INFO: [Common 17-1381] The checkpoint 'D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/Lab 4 - ALU.runs/synth_1/ALU_16Bit.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 543.215 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 05 12:55:12 2024...

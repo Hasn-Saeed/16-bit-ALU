@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../and_gate.vhd"
+vhdl xil_defaultlib  "../../../MUX31.vhd"
+vhdl xil_defaultlib  "../../../full_adder.vhd"
+vhdl xil_defaultlib  "../../../or_gate.vhd"
+vhdl xil_defaultlib  "../../../ALU.vhd"
+vhdl xil_defaultlib  "../../../ALU_16Bit.vhd"
+vhdl xil_defaultlib  "../../../ALU_16Bit_test.vhd"
+
+# Do not sort compile order
+nosort

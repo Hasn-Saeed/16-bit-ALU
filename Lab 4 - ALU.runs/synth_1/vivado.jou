@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Mar 05 12:54:53 2024
+# Process ID: 25484
+# Current directory: D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/Lab 4 - ALU.runs/synth_1
+# Command line: vivado.exe -log ALU_16Bit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALU_16Bit.tcl
+# Log file: D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/Lab 4 - ALU.runs/synth_1/ALU_16Bit.vds
+# Journal file: D:/Downloads/Downloads/Notes/ENGG 3380/Lab 4 - ALU/Lab 4 - ALU.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ALU_16Bit.tcl -notrace
